@@ -41,40 +41,73 @@ namespace DataTypes
             //}
             //Console.WriteLine("////////////////////////////////////////////////");
             //////////////////////////////////////////////////////////
-            //Ex3
-            Console.WriteLine("Exercitiul 3");
-            string user, password;
-            int control = 0;
-            int flag = 0;
-            do
-            {
-                Console.WriteLine("Default username=username and password=password");
-                Console.WriteLine("Input a username:");
-                user = Console.ReadLine();
-                Console.WriteLine("Input a password:");
-                password = Console.ReadLine();
+            ////Ex3
+            //Console.WriteLine("Exercitiul 3");
+            //string user, password;
+            //int control = 0;
+            //int flag = 0;
+            //do
+            //{
+            //    Console.WriteLine("Default username=username and password=password");
+            //    Console.WriteLine("Input a username:");
+            //    user = Console.ReadLine();
+            //    Console.WriteLine("Input a password:");
+            //    password = Console.ReadLine();
 
-                if (user == "username" && password == "password")
-                {
-                    flag = 1;
-                    control = 3;
-                }
-                else
-                {
-                    flag = 0;
-                    control++;
-                }
-            } while ((user != "username" || password != "password") && control != 3);
-            if (flag == 0)
+            //    if (user == "username" && password == "password")
+            //    {
+            //        flag = 1;
+            //        control = 3;
+            //    }
+            //    else
+            //    {
+            //        flag = 0;
+            //        control++;
+            //    }
+            //} while ((user != "username" || password != "password") && control != 3);
+            //if (flag == 0)
+            //{
+            //    Console.WriteLine("Login attemp more than three times. Try later!");
+            //}
+            //else {
+            //    if (flag == 1) {
+            //        Console.WriteLine("Entered successfull!");
+            //    }
+            //        }
+            //Console.WriteLine("////////////////////////////////////////////////");
+            ////////////////////////////////////////////////////////
+            ////Ex4
+            Console.WriteLine("Ex4");
+            int number41, number42;
+            char operation;
+            Console.WriteLine("Enter a number:");
+            number41 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("You can have the operations: +, -, x, : .");
+            Console.WriteLine("Enter the operation:");
+            operation = Convert.ToChar(Console.ReadLine());
+            Console.WriteLine("Enter a number:");
+            number42 = Convert.ToInt32(Console.ReadLine());
+
+            if ('-' == operation)
             {
-                Console.WriteLine("Login attemp more than three times. Try later!");
+                Console.WriteLine("{0} - {1} = {2}", number41, number42, (number41 - number42));
+            }
+            else if ('+'==operation)
+            {
+                Console.WriteLine("{0} + {1} = {2}", number41, number42, (number41 + number42));
+            }
+            else if ('x'==operation)
+            {
+                Console.WriteLine("{0} x {1} = {2}", number41, number42, (number41 * number42));
+            }
+            else if (':'==operation)
+            {
+                Console.WriteLine("{0} : {1} = {2}", number41, number42, (number41 / number42));
             }
             else {
-                if (flag == 1) {
-                    Console.WriteLine("Entered successfull!");
-                }
-                    }
-            Console.ReadKey();
+                Console.WriteLine("Invalid operation!");
+            }
+                Console.ReadKey();
 
 
 
