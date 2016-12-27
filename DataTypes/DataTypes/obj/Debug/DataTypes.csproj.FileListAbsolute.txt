@@ -1,0 +1,6 @@
+c:\users\bianca huruba\documents\visual studio 2015\Projects\DataTypes\DataTypes\bin\Debug\DataTypes.exe.config
+C:\Users\Bianca Huruba\documents\visual studio 2015\Projects\DataTypes\DataTypes\bin\Debug\DataTypes.exe
+C:\Users\Bianca Huruba\documents\visual studio 2015\Projects\DataTypes\DataTypes\bin\Debug\DataTypes.pdb
+C:\Users\Bianca Huruba\documents\visual studio 2015\Projects\DataTypes\DataTypes\obj\Debug\DataTypes.csprojResolveAssemblyReference.cache
+C:\Users\Bianca Huruba\documents\visual studio 2015\Projects\DataTypes\DataTypes\obj\Debug\DataTypes.exe
+C:\Users\Bianca Huruba\documents\visual studio 2015\Projects\DataTypes\DataTypes\obj\Debug\DataTypes.pdb
