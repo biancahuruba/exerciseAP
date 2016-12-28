@@ -126,27 +126,37 @@ namespace DataTypes
             //}
             //Console.WriteLine("////////////////////////////////////////////////");
             //Ex7
-            Console.WriteLine("Ex7");
-            float distance, hours, minutes, seconds;
-            float timesec, mps, mph, kph;
+            //Console.WriteLine("Ex7");
+            //float distance, hours, minutes, seconds;
+            //float timesec, mps, mph, kph;
 
-            Console.WriteLine("The distance is:");
-            distance = Convert.ToSingle(Console.ReadLine());
-            Console.WriteLine("The time in hours is:");
-            hours = Convert.ToSingle(Console.ReadLine());
-            Console.WriteLine("The time in minutes is:");
-            minutes = Convert.ToSingle(Console.ReadLine());
-            Console.WriteLine("The time in seconds is:");
-            seconds = Convert.ToSingle(Console.ReadLine());
+            //Console.WriteLine("The distance is:");
+            //distance = Convert.ToSingle(Console.ReadLine());
+            //Console.WriteLine("The time in hours is:");
+            //hours = Convert.ToSingle(Console.ReadLine());
+            //Console.WriteLine("The time in minutes is:");
+            //minutes = Convert.ToSingle(Console.ReadLine());
+            //Console.WriteLine("The time in seconds is:");
+            //seconds = Convert.ToSingle(Console.ReadLine());
 
-            timesec = (3600 * hours) + (60 * minutes) + seconds;
-            mps = distance / timesec;
-            kph = (distance / 1000.0f) / (timesec / 3600.0f);
-            mph = kph / (1.609f);
+            //timesec = (3600 * hours) + (60 * minutes) + seconds;
+            //mps = distance / timesec;
+            //kph = (distance / 1000.0f) / (timesec / 3600.0f);
+            //mph = kph / (1.609f);
 
-            Console.WriteLine("Your speed in meters/sec is {0}", mps);
-            Console.WriteLine("Your speed in km/h is {0}", kph);
-            Console.WriteLine("Your speed in miles/h is {0}", mph);
+            //Console.WriteLine("Your speed in meters/sec is {0}", mps);
+            //Console.WriteLine("Your speed in km/h is {0}", kph);
+            //Console.WriteLine("Your speed in miles/h is {0}", mph);
+            //Console.WriteLine("////////////////////////////////////////////////");
+            //Ex8
+            Console.WriteLine("Ex8");
+            double radius;
+            Console.WriteLine("Enter radius:");
+            radius = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Area={0}", (radius * radius * Math.PI*4));
+            Console.WriteLine("Volume={0}", (4/3*(radius*radius*radius * Math.PI)));
+            Console.WriteLine("////////////////////////////////////////////////");
+
 
 
 
